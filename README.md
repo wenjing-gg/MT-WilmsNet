@@ -17,13 +17,13 @@ A multi-task framework combining tumor segmentation and metastasis prediction us
 Install dependencies:
 ```bash
 pip install -r requirements.txt
-
+```
 ## Training
 ### Data Preparation
 
 ## Evaluation
 
-##Results
+## Results
 
-##Future Work
+## Future Work
 Towards Foundation Model for CT Analysis
