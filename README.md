@@ -19,10 +19,17 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 ## Training
+To train our model in the paper, run this command:
+```bash
+pip train.py
+```
 ### Data Preparation
 
 ## Evaluation
-
+To evaluate our model in the paper, run this command:
+```bash
+python eval.py
+```
 ## Results
 
 ## Future Work
