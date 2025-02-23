@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ## :rainbow:Training
 To train our model in the paper, run this command:
 ```bash
-pip train.py
+python train.py
 ```
 ### Data Preparation
 
