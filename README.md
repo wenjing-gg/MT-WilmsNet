@@ -25,10 +25,10 @@ python train.py
 ```
 ### Data Preparation
 
-## :bulb:Evaluation
-To evaluate our model in the paper, run this command:
+## :bulb:inference
+To inference our model in the paper, run this command:
 ```bash
-python eval.py
+python inference.py
 ```
 ## :page_with_curl:Results
 
