@@ -25,7 +25,7 @@ python train.py
 ```
 ### Data Preparation
 
-## :bulb:inference
+## :star2:inference
 To inference our model in the paper, run this command:
 ```bash
 python inference.py
@@ -58,7 +58,7 @@ python inference.py
 | +WRT-FPN | **0.8712** | **0.8501** | 0.7778 | **0.9091** | **0.8696** | **0.9231** | **0.8597** | **0.6452** | **2.7188** |
 
 >  **Note:** Ablation study performance with progressively added modules.
-  ### 💡 Visualization
+  ### :sunny: Visualization
 
 ## :kissing_cat:Future Work
 Towards Foundation Model for CT Analysis
