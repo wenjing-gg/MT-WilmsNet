@@ -12,6 +12,7 @@
 A multi-task framework combining tumor segmentation and metastasis prediction using CT imaging data. Designed to reduce dependency on PET-CT scans while maintaining diagnostic accuracy for Wilms’ Tumor (WT).
 
 ![Model Architecture](main.drawio.png)
+WRT-FPN
 ![Model Architecture](WRT-FPN.drawio.png)
 
 ## :clipboard:Requirements
