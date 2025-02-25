@@ -13,7 +13,7 @@ A multi-task framework combining tumor segmentation and metastasis prediction us
 
 ![Model Architecture](main.drawio.png)
 WRT-FPN
-![Model Architecture](WRT-FPN.drawio.png)
+![Model Architecture](model/WRT-FPN.drawio.png)
 
 ## :clipboard:Requirements
 Install dependencies:
