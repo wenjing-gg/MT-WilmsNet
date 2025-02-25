@@ -26,11 +26,21 @@ To train our model in the paper, run this command:
 python train.py
 ```
 ### Data Preparation
+preprocessing
+First we need two folders
+```bash
+cd root
+mkdir "./data/Wilms_tumor_raw_CT_data"
+mkdir "./data/Wilms_tumor_training_data"
+``
+Download Wilms_tumor_raw_CT_data. Open the zip file and extract the connect into the Wilms_tumor_raw_CT_data directory. Once the files are moved properly, you should see the following folder structure:
+```bash
 
+```
 ## :star2:inference
 To inference our model in the paper, run this command:
 ```bash
-python dataprocess/inference.py
+python visualzation/inference.py
 ```
 ## :page_with_curl:Results
 ### 💡 Quantitative Comparison
