@@ -1,0 +1,21 @@
+Epoch: 149
+AUC: 0.8889
+Accuracy: 0.7500
+Sensitivity: 0.6818
+Specificity: 1.0000
+Precision: 1.0000
+F1 Score: 0.8108
+Dice系数 (DSC): 0.9217
+Jaccard指数 (IoU): 0.8578
+平均表面距离 (ASD): 0.6656
+95% Hausdorff距离: 2.7132
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.7200    1.0000    0.8372        18
+           1     1.0000    0.6818    0.8108        22
+
+    accuracy                         0.8250        40
+   macro avg     0.8600    0.8409    0.8240        40
+weighted avg     0.8740    0.8250    0.8227        40
