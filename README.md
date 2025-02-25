@@ -119,7 +119,7 @@ python visualzation/inference.py
   ### :sunny: Visualization
 
  ![Thermal Map Visualization](visualization/heatmap.jpg) 
-  
+>  **Note:** In thermal map visualization, each row represents the difference between the 3D data in different orientations, containing the original voi image and the corresponding attention heat map.
 
 ## :kissing_cat:Future Work
 Towards Foundation Model for CT Analysis
