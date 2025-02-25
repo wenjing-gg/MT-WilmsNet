@@ -30,7 +30,7 @@ python train.py
 ## :star2:inference
 To inference our model in the paper, run this command:
 ```bash
-python inference.py
+python dataprocess/inference.py
 ```
 ## :page_with_curl:Results
 ### 💡 Quantitative Comparison
