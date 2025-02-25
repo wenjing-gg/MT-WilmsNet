@@ -32,16 +32,34 @@ First we need two folders
 cd root
 mkdir "./data/Wilms_tumor_raw_CT_data"
 mkdir "./data/Wilms_tumor_training_data"
-``
+```
 Download Wilms_tumor_raw_CT_data. Open the zip file and extract the connect into the Wilms_tumor_raw_CT_data directory. Once the files are moved properly, you should see the following folder structure:
 ```bash
+root/data/
+|---Wilms_tumor_raw_CT_data
+|                      |---Data0
+|                      |---Data1
+|                      |---Data3-0
+|                      |---Data3-1
 
+```
+Then the data is transformed using dataprocess.py
+```bash
+python dataprocess.py
+```
+If you have successfully converted the data, you will see the following file structure
+```bash
+root/data/
+|---Wilms_tumor_training_data
+|                        |---train
+|                        |---test
 ```
 ## :star2:inference
 To inference our model in the paper, run this command:
 ```bash
 python visualzation/inference.py
 ```
+
 ## :page_with_curl:Results
 ### 💡 Quantitative Comparison
 | Model               | AUC ↑ | ACC ↑ | Specificity ↑ | Sensitivity ↑ | F1-score ↑ | DSC ↑ | JI↑ | ASD ↓ | HD95 ↓ |
