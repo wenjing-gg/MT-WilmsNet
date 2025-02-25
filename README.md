@@ -118,7 +118,7 @@ python visualzation/inference.py
 >  **Note:** Ablation study performance with progressively added modules.The optimal results are shown in bold.
   ### :sunny: Visualization
 
- ![Thermal Map Visualization]() 
+ ![Thermal Map Visualization](visualization/heatmap.jpg) 
   
 
 ## :kissing_cat:Future Work
