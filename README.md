@@ -33,7 +33,8 @@ cd root
 mkdir "./data/Wilms_tumor_raw_CT_data"
 mkdir "./data/Wilms_tumor_training_data"
 ```
-Download Wilms_tumor_raw_CT_data(The original CT data can be downloaded after applying and licensing to us and relevant hospitals.). Open the zip file and extract the connect into the Wilms_tumor_raw_CT_data directory. Once the files are moved properly, you should see the following folder structure:
+Download Wilms_tumor_raw_CT_data(Due to privacy and ethical issues, the original CT data can be downloaded after applying and licensing to us and relevant hospitals). 
+Then open the zip file and extract the connect into the Wilms_tumor_raw_CT_data directory. Once the files are moved properly, you should see the following folder structure:
 
 ```bash
 root/data/
