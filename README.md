@@ -25,7 +25,7 @@ To train our model in the paper, run this command:
 ```bash
 python train.py
 ```
-### Data Preparation
+### 📜Data Preparation
 preprocessing
 First we need two folders
 ```bash
@@ -39,11 +39,21 @@ Then open the zip file and extract the connect into the Wilms_tumor_raw_CT_data 
 
 ```bash
 root/data/
-|---Wilms_tumor_raw_CT_data
-|                      |---Data0
+|——Wilms_tumor_raw_CT_data
+|                      |——Data0
+|                      |      |——1_image.nrrd
+|                      |       ——1_label.nrrd
+|                      |      |——2_image.nrrd
+|                      |       ——2_label.nrrd
+|                      |      |——...
 |                      |---Data1
+|                      |      |——3_image.nrrd
+|                      |       ——3_label.nrrd
+|                      |      |——...
 |                      |---Data3-0
+|                      |      |——...
 |                      |---Data3-1
+|                      |      |——...
 
 ```
 Then the data is transformed using dataprocess.py
@@ -53,9 +63,24 @@ python dataprocess.py
 If you have successfully converted the data, you will see the following file structure
 ```bash
 root/data/
-|---Wilms_tumor_training_data
-|                        |---train
-|                        |---test
+|——Wilms_tumor_training_data
+|                        |——train
+|                        |      |——0
+|                        |      |   |——sm1_1.nrrd
+|                        |      |    ——sm1_1_mask.nrrd
+|                        |      |   |——sm1_2.nrrd
+|                        |      |    ——sm1_2_mask.nrrd
+|                        |      |   |——...
+|                        |      |——1
+|                        |      |   |——sm1_3.nrrd
+|                        |      |    ——sm1_3.mask.nrrd
+|                        |      |   |——...
+|                        |——test
+|                        |      |——0
+|                        |      |   |——...
+|                        |      |——1
+|                        |      |   |——...
+
 ```
 ## :star2:inference
 To inference our model in the paper, run this command:
