@@ -1,0 +1,16 @@
+matplotlib==3.10.0
+monai==1.4.0
+numpy==2.2.3
+opencv_python==4.10.0.84
+pandas==2.2.3
+Pillow==11.1.0
+pynrrd==1.0.0
+scikit_learn==1.6.1
+scipy==1.15.2
+seaborn==0.13.2
+SimpleITK==2.4.0
+SimpleITK==2.4.1
+skimage==0.0
+torch==2.4.0
+torchvision==0.19.0
+tqdm==4.66.5
