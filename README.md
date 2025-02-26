@@ -11,9 +11,11 @@
 ## :sound:Overview
 A multi-task framework combining tumor segmentation and metastasis prediction using CT imaging data. Designed to reduce dependency on PET-CT scans while maintaining diagnostic accuracy for Wilms’ Tumor (WT).
 
-![Model Architecture](main.drawio.png)
+![Model Architecture](model/MT-WilmsNet.png)
+
 WRT-FPN
-![Model Architecture](model/WRT-FPN.drawio.png)
+
+![Model Architecture](model/WRT-FPN.png)
 
 ## :clipboard:Requirements
 Install dependencies:
@@ -118,7 +120,7 @@ python visualzation/inference.py
 >  **Note:** Ablation study performance with progressively added modules.The optimal results are shown in bold.
   ### :sunny: Visualization
 
- ![Thermal Map Visualization](visualization/heatmap.jpg) 
+ ![Thermal Map Visualization](visualization/heatmap.png) 
 >  **Note:** In thermal map visualization, each row represents the difference between the 3D data in different orientations, containing the original voi image and the corresponding attention heat map.
 
 ## :kissing_cat:Future Work
